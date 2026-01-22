@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #4facfe, #00f2fe);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #4facfe;
+        }
+        h1 {
+            margin: 15px 0 5px;
+        }
+        h3 {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .about {
+            margin-top: 30px;
+        }
+        .about h2 {
+            color: #4facfe;
+        }
+        .info {
+            margin-top: 20px;
+            line-height: 1.8;
+        }
+        .social {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .social a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: white;
+            background: #4facfe;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+        .social a:hover {
+            background: #00c6ff;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile">
+        <img src="https://via.placeholder.com/150" alt="Avatar">
+        <h1>Nguyễn Văn A</h1>
+        <h3>Web Developer | Designer</h3>
+    </div>
+
+    <div class="about">
+        <h2>Giới thiệu</h2>
+        <p>
+            Xin chào! Mình là Nguyễn Văn A, một người yêu thích công nghệ,
+            lập trình web và thiết kế giao diện người dùng.
+        </p>
+    </div>
+
+    <div class="info">
+        <p><strong>📧 Email:</strong> example@gmail.com</p>
+        <p><strong>📞 Số điện thoại:</strong> 0123 456 789</p>
+        <p><strong>📍 Địa chỉ:</strong> Việt Nam</p>
+        <p><strong>💼 Kỹ năng:</strong> HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="social">
+        <a href="#">Facebook</a>
+        <a href="#">GitHub</a>
+        <a href="#">Zalo</a>
+    </div>
+
+    <footer>
+        © 2026 - Trang web profile cá nhân
+    </footer>
+</div>
+
+</body>
+</html>
